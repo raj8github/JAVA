@@ -12,6 +12,7 @@ public class myTest {
 		FileReader fr = new FileReader(new File("./src/browsers.txt"));
 		BufferedReader br = new BufferedReader(fr);
 
+		//Read a Text file containing browser names and set the drivers accordingly and do the actions.
 		for (int i = 0; i <= 2; i++) {
 			input.Data(setDriver.set(br.readLine().trim()));
 		}
